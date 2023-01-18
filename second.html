@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second step</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/second.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container flex-container">
+          <div class="header-left">
+            <img class="ad-img1" src="./images/by.svg" alt="pages" />
+            <img class="ad-img2" src="./images/trend.svg" alt="page" />
+          </div>
+          <div class="header-right">
+            <ul>
+              <li>
+                <a style="text-decoration: none" href="#services">Services</a>
+              </li>
+              <li>
+                <a style="text-decoration: none" href="#about">About</a>
+              </li>
+              <li>
+                <a style="text-decoration: none" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+            <img class="ad-hamburger" src="./images/hamburger.png" alt="page">
+            <button class="btn-1">
+              <a
+                style="color: rgba(0, 0, 0, 0.65); text-decoration: none"
+                href="third.html"
+                >Log in</a
+              >
+            </button>
+            <button class="btn-2">
+              <a
+                style="color: rgba(0, 0, 0, 0.65); text-decoration: none"
+                href="second.html"
+                >Open an account</a
+              >
+            </button>
+            <button class="btn-1">
+              <a
+                style="color: rgba(0, 0, 0, 0.65); text-decoration: none"
+                href="second.html"
+                >EN</a
+              >
+            </button>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container flex-container-main">
+        <fieldset>
+          <form action="#">
+          <div class="ad-images">
+            <img class="ad-by-image" src="./images/by.svg" alt="page" />
+            <img class="ad-trend-image" src="./images/trend.svg" alt="page" />
+          </div>
+          <div class="ad-text">
+            <h1>Welcome to ByTrend!</h1>
+          </div>
+          <div class="ad-text2">
+            <p class="p-1">Already have an account? <a href="third.html"> Log in</a></p>
+          </div>
+          <label class="label-1" for="email">Email<span>*</span></label>
+          <br />
+          <input
+            required
+            class="input-1"
+value="bahodirjamoldinov@gmail.com"
+
+            placeholder="Email address"
+            type="text"
+            id="email"
+            
+          />
+          <label class="label-2" for="tel">Phone<span>*</span></label>
+          <div class="ad-phone">
+            <br />
+            
+            <input
+              required
+              class="input-3"
+              placeholder="+998933729872"
+value="+998933729872"
+              type="tel"
+              id="tel"
+              name="tel"
+            />
+          </div>
+          <div class="country-city">
+            <div class="country">
+              <label class="label-3" for="country">Country<span>*</span></label>
+              <br />
+              <select class="select-2" name="country" id="country">
+                <option class="option-1" value="">Uzbekistan</option>
+              </select>
+            </div>
+            <div class="city">
+              <label class="label-4" for="city">City<span>*</span></label>
+              <br />
+              <input
+                required
+                class="input-4"
+                placeholder="Qoqon"
+                value="Qoqon"
+                type="text"
+                id="city"
+                name="city"
+              />
+            </div>
+          </div>
+          <div class="password-confirm">
+            <form action="#">
+            <div class="password">
+              <label class="label-5" for="password"
+              >Password<span>*</span>
+            </label>
+              <br />
+              <input
+                required
+                class="input-5"
+                value="12345"
+                type="password"
+                name="password"
+                id="password"
+              />
+              <i class="bi bi-eye-slash" id="togglePassword"></i>
+            </div>
+            <div class="confirm-password">
+              <label class="label-6" for="password">Confirm password<span>*</span></label>
+        <br />
+        <input
+          required
+          class="input-6"
+          value="12345"
+          
+          type="text"
+          name="password"
+          id="password"
+        />
+        <!-- <i class="bi bi-eye-slash" id="togglePassword"></i> -->
+      </div>
+          <div class="register">
+            <button class="btn-3" type="submit">Register</button>
+          </div>
+        </form>
+        </fieldset>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container flex-container-footer">
+        <p class="p-2">
+          By signing up, you are agreeing to our <span> Terms & Conditions </span><br />and
+          <span>Privacy Policy</span>.
+        </p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

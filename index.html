@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First step   </title>
+    <link rel="stylesheet" href="css/first.css" />
+  </head>
+  <body>
+    <header >
+      <nav>
+        <div class="container flex-container">
+          <div class="header-left">
+            <img class="ad-img1" src="./images/by.svg" alt="pages" />
+            <img class="ad-img2" src="./images/trend.svg" alt="page" />
+          </div>
+          <div class="header-right">
+            <ul>
+              <li>
+                <a style="text-decoration: none" href="">Services</a>
+              </li>
+              <li>
+                <a style="text-decoration: none" href="#">About</a>
+              </li>
+              <li>
+                <a style="text-decoration: none" href="#">Contacts</a>
+              </li>
+            </ul>
+            <img class="ad-hamburger" src="./images/" alt="page" />
+            <button class="btn-1">
+              <a
+                style="color: rgba(0, 0, 0, 0.65); text-decoration: none"
+                href="third.html"
+                >Log in</a
+              >
+            </button>
+            <button class="btn-2">
+              <a
+                style="color: rgba(0, 0, 0, 0.65); text-decoration: none"
+                href="second.html"
+                >Open an account</a
+              >
+            </button>
+            <button class="btn-1">
+              <a
+                style="color: rgba(0, 0, 0, 0.65); text-decoration: none"
+                href=""
+                >EN</a
+              >
+            </button>
+            <!-- <form class="form-1" action="#">
+              <label for="language"></label>
+              <select class="ad-label" name="language" id="language">
+                <option value="english">ENG</option>
+                <option value="russia">RUS</option>
+              </select>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main >
+      <div class="container flex-container-main">
+        <fieldset >
+          <form action="second.html">
+            <div class="ad-images">
+              <img class="ad-by-image" src="./images/by.svg" alt="page" />
+              <img class="ad-trend-image" src="./images/trend.svg" alt="page" />
+            </div>
+            <div class="ad-text">
+              <h1>Welcome to ByTrend!</h1>
+            </div>
+            <div class="ad-text2">
+              <p class="p-1">
+                Already have an account? <a href="third.html"> Log in</a>
+              </p>
+            </div>
+            <div class="inputs">
+              <div class="first-name">
+                <label class="label-2" for="firstname">First name<span>*</span></label>
+                <br />
+                <input
+                  required
+                  value="Bahodir"
+                  placeholder="Your name"
+                  class="input-1"
+                  type="text"
+                  id="firstname"
+                  name="firstname"
+                />
+              </div>
+              <div class="last-name">
+                <label class="label-3" for="lastname">Last name<span>*</span></label>
+                <br />
+                <input
+                  required
+                  value="Jamoldinov"
+                  placeholder="Your sourname"
+                  class="input-2"
+                  type="text"
+                  id="lastname"
+                  name="lastname"
+                />
+              </div>
+            </div>
+            <div class="birthday">
+              <label class="label-4" for="birthdat">Birth date<span>*</span></label>
+              <br />
+              <input
+                required
+                class="input-3"
+                type="date"
+                id="birthday"
+                name="birthday"
+              />
+            </div>
+            <label class="label-5" for="gender">Gender<span>*</span></label>
+            <div class="gender-input">
+              <button class="btn-3">
+                <input
+                  class="input-4"
+                  required
+                  type="radio"
+                  id="gender"
+                  name="gender"
+                />Female
+              </button>
+              <button class="btn-4">
+                <input
+                  class="input-4"
+                  required
+                  type="radio"
+                  id="gender"
+                  name="gender"
+                  value="Male"
+                />Male
+              </button>
+            </div>
+            <div class="skype">
+              <label class="label-6" for="skype">Skype</label>
+              <br />
+              <input
+                
+                class="input-5"
+                placeholder="Your login Skype"
+                type="text"
+                id="skype"
+                name="skype"
+              />
+            </div>
+            <div class="promo">
+              <label class="label-9" for="promo">Promo</label>
+              <br />
+              <input
+                
+                class="input-6"
+                placeholder="Your promo"
+                type="text"
+                id="promo"
+                name="promo"
+              />
+            </div>
+            <div class="submit-class">
+              <button class="btn-5" type="submit">
+                Continue
+                <img
+                  class="ad-img-strelka"
+                  src="./images/strleka.png"
+                  alt="page"
+                />
+              </button>
+            </div>
+          </form>
+        </fieldset>
+      </div>
+    </main>
+    <footer>
+      <div class="container flex-container-footer">
+        <p class="p-2">©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+      </div>
+    </footer>
+  </body>
+</html>
